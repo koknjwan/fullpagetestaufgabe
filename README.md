@@ -13,11 +13,12 @@ The project consists of a single welcome page. Questions are stored in JSON form
 
 ## Installation
 
-1. Clone the project from GitHub then `php artisan key:generate` ( optional ).
+1. Clone the project from GitHub.
 2. Copy the `.env` file by running `cp .env.example .env`.
-3. Adjust your `.env` file with your database configuration.
-4. Run `php artisan migrate` to create the necessary database tables.
-5. Seed the database with questions by running `php artisan db:seed --class=QuestionsSeeder`.
+3. Generate key `php artisan key:generate`.
+4. Adjust your `.env` file with your database configuration.
+5. Run `php artisan migrate` to create the necessary database tables.
+6. Seed the database with questions by running `php artisan db:seed --class=QuestionsSeeder`.
 
 ## Usage
 
