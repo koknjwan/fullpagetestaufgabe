@@ -32,9 +32,9 @@ class QuestionsSeeder extends Seeder
           ['option' => 'Laravel', 'proceed' => '1'],
           ['option' => 'Angular', 'proceed' => '1'],
           ['option' => 'React-Native', 'proceed' => '1'],
-          ['option' => 'node.js / Express', 'proceed' => '1'],
-          ['option' => 'git', 'proceed' => '1'],
-          ['option' => 'Docker', 'proceed' => '1'],
+          ['option' => 'node.js / Express', 'proceed' => '0'],
+          ['option' => 'git', 'proceed' => '0'],
+          ['option' => 'Docker', 'proceed' => '0'],
         ]
       ],
       [
